@@ -1,0 +1,22 @@
+{
+  "name": "e2e-tests",
+  "version": "1.0.0",
+  "description": "e2e tests for continuous testing",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress run",
+    "test:open": "cypress open"
+  },
+  "keywords": [
+    "ct-testing",
+    "ui-testing",
+    "ci",
+    "cd"
+  ],
+  "author": "Ana Osorio <anmosoriomo@unal.edu.co> (https://github.com/ana-os-mo)",
+  "license": "MIT",
+  "devDependencies": {
+    "@applitools/eyes-cypress": "^3.27.1",
+    "cypress": "^10.4.0"
+  }
+}
