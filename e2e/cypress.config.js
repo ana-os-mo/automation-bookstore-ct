@@ -6,6 +6,10 @@ module.exports = defineConfig({
     setupNodeEvents(on, config) {
       // implement node event listeners here
     },
+    reporter: "junit",
+    reporterOptions: {
+      mochaFile: "cypress/results/TEST-[hash].xml",
+    },
   },
 });
 

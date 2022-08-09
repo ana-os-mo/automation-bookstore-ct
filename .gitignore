@@ -5,10 +5,13 @@
 # gitignore template for the CypressIO, browser test framework
 # website: https://www.cypress.io/
 
-cypress/results/*
-cypress/reports/*
-cypress/screenshots/*
-cypress/videos/*
+e2e/cypress/results/*
+e2e/cypress/reports/*
+e2e/cypress/screenshots/*
+e2e/cypress/videos/*
+
+### Node ###
+e2e/node_modules/*
 
 ### VisualStudioCode ###
 .vscode/*
