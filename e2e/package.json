@@ -4,7 +4,9 @@
   "description": "e2e tests for continuous testing",
   "main": "index.js",
   "scripts": {
+    "delete:reports": "rm -rf cypress/results/ && rm -rf cypress/videos && rm -rf cypress/screenshots",
     "test": "cypress run",
+    "pretest": "npm run delete:reports",
     "test:open": "cypress open"
   },
   "keywords": [
