@@ -5,7 +5,7 @@ describe("Search for books", () => {
 
     it("should return one book with title Agile Testing", () => {
         const title = "Agile Testing";
-        const pageTitle = "Automation Bookstore Kurama-Kilua";
+        const pageTitle = "Automation Bookstore Kurama-Killua";
         const count = 1;
 
         cy.get("#searchBar").type(title, {delay: 200});
