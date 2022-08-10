@@ -5,6 +5,8 @@ module.exports = defineConfig({
     setupNodeEvents(on, config) {
       // implement node event listeners here
     },
+    // baseUrl: "https://ctbookstore.azurewebsites.net/",
+    baseUrl: "http://localhost:5500",
     reporter: "junit",
     reporterOptions: {
       mochaFile: "cypress/results/TEST-[hash].xml",
